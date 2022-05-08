@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/product2.css">
+   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="https://themerkle.com/wp-content/uploads-new/2017/01/overstock-logo.jpg">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <title>Overstock</title>
+    
+</head>
+<script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+<body>
+   <div id="topmost"></div>
+    <div id="navbar"></div>
+    <div id="bottom_nav"></div>
+    <div class="header">
+        <p>1-60 of 13,238 results</p>
+        <h1>Garden & patio Scale</h1>
+        
+    </div>
+
+    <div class="Option">
+        <div class="sorttag">
+            <p>Sort by:</p>
+            
+        </div>
+        <div class="option">
+            <select onchange="handlerating()" id="sort">
+                <option value="best">Best Selling</option>
+                <option value="sale">On Sale</option>
+                <option value="lth">Price Low - High</option>
+                <option value="htl">Price High - Low</option>
+                <option value="rating">Customer Rating</option>
+                <option value="new">New Arrivals</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="product_box">
+        <div id="color">
+
+            <div id="topsection">
+
+                <div><h2> Filter By  </h2> </div>
+                <div class="list-choice">
+
+                <div class ="list-choice-title"> Categories </div>
+                <div class ="list-choice-objects">
+                <!-- <label>
+                <input type="radio"/>
+                <span></span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>TANK TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>T-SHIRTS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>SHIRTS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>BLOUSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>MAXI TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>PEPLUM TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>CAPE TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>WRAP TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>HALTER TOP</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                <span>LACE TOPS</span> 
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>COLD SHOULDER TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>OFF SHOULDER TOPS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>BELL SLEEVES TOPS</span>
+                </label> -->
+                </div>
+                </div>
+                
+                <div><h3
+                    style="font-size: 20px;"> Price </h3></div>
+                <div> <h3
+                    style="font-size: 20px;"> Brands </h3> </div> 
+                <div class="list-choice">
+                  <div class ="list-choice-title">Materials </div>
+                <div class ="list-choice-objects">
+                <!-- <label>
+                  <input type="radio"/>
+                  <span>COORDINATES  </span>
+                </label>
+                <label>
+                  <input type="radio"/>
+                  <span>TOPS</span>
+                </label>
+                <label>
+                  <input type="radio"/>
+                  <span>DRESSES</span>
+                </label>
+                <label>
+                  <input type="radio"/>
+                  <span>SKIRTS</span>
+                </label>
+                <label>
+                  <input type="radio"/>
+                  <span>BOTTOMS</span>
+                </label> -->
+                </div>
+                </div>
+                <div><h3
+                    style="font-size: 20px;"> Colors </h3> </div>
+                <div><h3
+                    style="font-size: 20px;"> Styles </h3></div>  
+                <div><h3
+                    style="font-size: 20px;"> Sells & Promotions </h3></div>
+                
+                
+                <div class="list-choice">
+                <div class ="list-choice-title">  </div>
+                <div class ="list-choice-objects">
+                <!-- <label>
+                  <input type="radio"/>
+                  <span>MINI SKIRTS</span> 
+                </label>
+                <label>
+                  <input type="radio"/>
+                  <span>MAXI SKIRTS</span>
+                </label>
+                <label>
+                 <input type="radio"/>
+                 <span>MIDI SKIRTS</span>
+                </label> -->
+                </div>
+                </div> 
+                
+                <div><h3
+                    style="font-size: 20px;"> Types </h3> </div>
+                <div><h3
+                    style="font-size: 20px;"> Sizes </h3> </div> 
+                <div class="list-choice">
+                <div class ="list-choice-title"> Shapes </div>
+                <div class ="list-choice-objects">
+                 <!-- <label>
+                   <input type="radio"/>
+                   <span>FORMAL TROUSERS</span> 
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>LEGGINGS & JEGGINGS</span>
+                </label>
+                <label>
+                  <input type="radio"/>
+                  <span>WIDE LEGGED PANTS</span>
+                </label> -->
+                </div>
+                </div>
+                <div><h3
+                    style="font-size: 20px;"> Patterns </h3> </div>
+                <div><h3
+                    style="font-size: 20px;"> Product Features </h3> </div>
+                <div class="list-choice">
+                <div class ="list-choice-title">Availabilty</div>
+                <div class ="list-choice-objects">
+                <!-- <label>
+                   <input type="radio"/>
+                   <span>BLAZERS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>JACKETS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>COATS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>SWEATERS & CARDIGANS</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>HOODIES & SWEATSHIRTS</span> 
+                </label> -->
+                </div>
+                </div>
+                
+                
+                <!-- <div><h3
+                    style="font-size: 20px;"> UNDER 699 </h3> </div>
+                <div><h3
+                    style="font-size: 20px;"> UNDER 799 </h3> </div>
+                <div> <h3
+                    style="font-size: 20px;"> UNDER 999 </h3></div>
+                
+                 -->
+                <div class="list-choice">
+                <div class ="list-choice-title"> Customer Ratings </div>
+                <div class ="list-choice-objects">
+                <!-- <label>
+                   <input type="radio"/>
+                   <span>BODYCON DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>SKATER DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>A-LINE DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>SHIRT DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>SHIFT DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>MAXI DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>WRAP DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>OFF SHOULDER DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>COLD SHOULDER DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>RUFFLE DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                <span>LITTLE BLACK DRESSES</span> 
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>MINI DRESSES</span>
+                </label>
+                <label>
+                   <input type="radio"/>
+                   <span>OFF SHOULDER TOPS</span>
+                </label> -->
+                </div>
+                </div>
+                </div>
+
+        </div>
+        <div id="container"></div>
+    </div>
+
+
+</body>
+</html>
+
+<script src="/product2.js" type="module"></script>

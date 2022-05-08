@@ -1,0 +1,122 @@
+#block_1{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04292022-HP-A1-INTL-1400x550.jpg');
+}
+h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#block_2{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#block_2 div{
+   
+    width: 157px;
+    cursor: pointer;
+}
+#block_2 img{
+    background-color: rgb(248,248,248);
+    
+    width: 157px;
+    height: 157px;
+}
+p{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+} 
+#block_3{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04282022_HomeDecorRefresh_Desktopv2.jpg?imwidth=3840');
+} 
+#block_4{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 50px;
+}
+#block_4 img{
+    width: 190px;
+    height: 190px;
+}
+#block_5{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 50px;
+    margin-left: 80px;
+    
+}
+#block_5 div{
+    width: 300px;
+    background-color: rgb(248,248,248);
+}
+#block_5 img{
+    width: 300px;
+    height: 300px;
+}
+#block_6{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04282022_SpringTimeSlumber_INTL_Desktop.jpg?imwidth=3840');
+}
+#block_7{
+    display: flex;
+    justify-content: space-around;
+}
+#block_7 div{
+    width: 297px;
+    background-color: rgb(248,248,248);
+}
+#block_7 img{
+    width: 297px;
+    height: 297px;
+}
+#block_8{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/030822-RIUpdate-Dsk.jpg?imwidth=3840');
+}
+#block_8 img{
+    width: 100%;
+}
+#block_9{
+    display: flex;
+    justify-content: space-around;
+}
+#block_9 div{
+    width: 400.66px;
+    background-color: rgb(248,248,248);
+}
+#block_9 img{
+    width: 400.66px;
+    height: 400.66px;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 46%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#block_10{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+#block_10 div{
+    width: 400.66px;
+    margin-top: 25px;
+    padding-top: 10px;
+    height: 52px;
+    background-color: rgb(248,248,248);
+}
+h3{
+    text-align: center;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            /* line-height: 1.5px; */
+            font-family: 'Poppins', sans-serif;
+        } 
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        
+
+        ul {
+            list-style: none;
+        }
+
+        .footer-col ul li a {
+            font-size: 12px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            /* color: #bbbbbb; */
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+
+        }
+
+s        .container {
+            max-width: 100%;
+            /* background-color: red; */
+            margin: auto;
+            height: 230px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 40px 105px 60px;
+            /* width: 100%; */
+            justify-content: space-evenly;
+        }
+
+        .footer {
+            background-color: #545658;
+            padding: 1px 15px;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+        .footer-col h5 {
+            font-size: 13px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .footer-col h5::before {
+            /* content: '';
+            position:absolute; */
+            /* left: 0; */
+
+            background-color: white;
+            height: 3px;
+            /* box-sizing: border-box; */
+            /* width: 100%; */
+
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 20px;
+
+
+        }
+
+        .lower-footer {
+
+            height: 100px;
+            background-color: #2f3337;
+            display: flex;
+            justify-content: space-around;
+            padding: 14px 10px  0px ;
+            box-sizing: border-box;
+        }
+
+        .left-block {
+            
+            height: 70px;
+            width: 44%;
+            flex-direction: column;
+            color: #FFFFFF;
+            font-size: 12px;
+            text-transform: capitalize;
+            display:flex;
+            justify-content: center;
+
+
+
+        }
+
+        .right-block {
+            /* border: 1px solid red; */
+            height: 70px;
+            width: 30%;
+            /* flex-direction: column; */
+            color: #FFFFFF;
+            font-size: 12px;
+            text-transform: capitalize;
+            display:flex;
+            justify-content: space-between;
+            padding-left: 10px;
+
+            
+
+        }
+        .right-block p{
+            display:flex;
+            /* justify-content: center; */
+            /* padding-left: 2px 10px; */
+            align-items: center;
+            padding-left: 2px ;
+        }
+ 
+
+    </style>
+</head>
+
+<body>
+    <!-- <div id="footer"></div> -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h5>MY ACCOUNT</h5>
+                        <ul>
+                            <li><a href="#">Order & Return</a></li>
+                            <li><a href="#">Email Preference</a></li>
+                            <li><a href="#">Account Settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>LET US HELP</h5>
+                        <ul>
+                            <li><a href="#">Contact customer Care</a></li>
+                            <li><a href="#">Sipping Information</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">International Help</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>COMPANY INFORMATION</h5>
+                        <ul>
+                            <li><a href="#">About Overstock</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Invertor Relations</a></li>
+                            <li><a href="#">Sell Your Products</a></li>
+                            <li><a href="#">Supply Chain Transparency</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>MORE WAYS TO SHOP</h5>
+                        <ul>
+                            <li><a href="#">Tips & Ideas</a></li>
+                            <li><a href="#">Deals</a></li>
+                            <li><a href="#">Clearence</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower-footer">
+            <div class="left-block">
+                <p>© Copyright 2022, Overstock.com®, Inc.</p>
+                <p>799 Coliseum Way Midvale, UT 84047 | 1-800-843-2446</p>
+            </div>
+            <div class="right-block">
+                <p>Privacy Policy</p>
+                <p>Terms & Condition</p>
+                <p>Promotion Terms</p>
+                <p>Ship To</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+<!-- <script type="module">
+    import footer from '../components/footer.js';
+    document.getElementById('footer').innerHTML=footer();
+</script> -->
