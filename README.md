@@ -1,5 +1,5 @@
 # Unit3_Overstock_Project
-We were a team of 6 from the Masai Web-17 batch who worked on cloning the Overstock website as part of our Unit-3 construct week. As a team, we were given a project to clone the Adidas website. Our project demonstrates a basic flow of an e-commerce page dealing basically with furniture, where a customer can view and filter products, add their product to a cart and place his or her happy order.
+We were a team of 6 from the Masai Web-17 batch who worked on cloning the Overstock website as part of our Unit-3 construct week. As a team, we were given a project to clone the Overstock website. Our project demonstrates a basic flow of an e-commerce page dealing basically with furniture, where a customer can view and filter products, add their product to a cart and place his or her happy order.
 We are passionate about doing our part to make life better. We provide high-quality merchandise, great value, and exceptional customer service. We connect people with products and services in new and unexpected ways. We do our part to create dream homes for all.
 
 Deployment Link https://radiant-fairy-66db6d.netlify.app/
